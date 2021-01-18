@@ -1,0 +1,3 @@
+include ':FilterImage'
+include ':app'
+rootProject.name = "InstaGram_DEMO"
