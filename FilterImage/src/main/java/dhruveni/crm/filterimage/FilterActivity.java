@@ -24,7 +24,7 @@ public class FilterActivity extends AppCompatActivity {
 
     }
 
-    private Bitmap generateBitmap() {
+    public Bitmap generateBitmap() {
         if(retrunBitmap7up!=null)
         {
             bitmap=retrunBitmap7up;
@@ -32,7 +32,7 @@ public class FilterActivity extends AppCompatActivity {
         return bitmap;
     }
 
-    private void GenerateFilterImageActivity() {
+    public void GenerateFilterImageActivity() {
         Intent i = new Intent(FilterActivity.this, MainActivity.class);
         startActivity(i);
     }
