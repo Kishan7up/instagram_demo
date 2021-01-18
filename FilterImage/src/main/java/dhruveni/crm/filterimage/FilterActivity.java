@@ -20,7 +20,7 @@ public class FilterActivity extends AppCompatActivity {
 
         GenerateFilterImageActivity();
 
-        generateBitmap();
+        //generateBitmap();
 
     }
 
