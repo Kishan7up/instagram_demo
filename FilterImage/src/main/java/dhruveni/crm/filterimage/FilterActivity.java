@@ -18,7 +18,7 @@ public class FilterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
 
-        GenerateFilterImageActivity();
+        //GenerateFilterImageActivity();
 
         //generateBitmap();
 
