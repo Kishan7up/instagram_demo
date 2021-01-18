@@ -37,4 +37,15 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'info.androidhive:imagefilters:1.0.7'
+    //ButterKnife
+    /*  implementation 'com.jakewharton:butterknife:8.8.1'
+      annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'*/
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+    // dexter M permissions
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.github.Kishan7up:UtilsMaster:1.0.5'
 }
